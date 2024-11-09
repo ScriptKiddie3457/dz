@@ -1,0 +1,9 @@
+import colorama
+
+print(colorama.Style.RESET_ALL.__doc__,
+      colorama.Style.DIM.__doc__,
+      colorama.Style.BRIGHT.__doc__,
+      colorama.Style.NORMAL.__doc__,
+      )
+
+print(colorama.Fore.RED+"Hello", colorama.Fore.GREEN+"World")
