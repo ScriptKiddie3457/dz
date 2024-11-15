@@ -1,0 +1,13 @@
+import colorama
+
+print(colorama.Fore.RED + "Hello", colorama.Fore.GREEN + "World")
+# Fore.(колір) присвоює колір шрифту
+
+print(colorama.Style.BRIGHT + "Hello World")
+# Style.BRIGHT освітлює шрифт, схоже на жирний стиль
+
+print(colorama.Style.DIM + "Hello World")
+# Style.DIM затемнює шрифт
+
+print(colorama.Style.RESET_ALL + "Hello World")
+# Style.RESET_ALL змінює все як було спочатку
